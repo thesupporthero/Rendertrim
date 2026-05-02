@@ -23,14 +23,14 @@ In Dalamud:
 
 ## Usage
 
-- `/rendertrim` — main window (master toggle + broadcast button).
-- `/rt` — short alias.
-- `/rendertrim debug` — per-trim power-user grid.
-- `/rendertrim help` — full command list.
+- `/rendertrim`: main window (master toggle + broadcast button).
+- `/rt`: short alias.
+- `/rendertrim debug`: per-trim power-user grid.
+- `/rendertrim help`: full command list.
 
-Tick **Trims active** to apply all 13 trims; untick to revert. Click
+Tick **Trims active** to apply trims; untick to revert. Click
 **Broadcast to other clients** to push the same state to every other RenderTrim
-instance running on the machine.
+clients running on the same machine.
 
 If you accidentally close the main window while trims are active, an
 **Emergency Backout** window appears with a single button to disable everything.
@@ -52,5 +52,3 @@ git add . && git commit -m 'release vX.Y.Z' && git push
 ## Compatibility
 
 - Targets Dalamud API 15 (FFXIV 7.5+).
-- Tested on FFXIV `ffxiv_dx11.exe` timestamped 2026-04-20. Sigs may drift on
-  patch days; rebuild after re-verifying signatures against the new binary.
