@@ -1,0 +1,42 @@
+[
+    {
+        "Author":  "localadmin",
+        "Name":  "RenderTrim",
+        "InternalName":  "RenderTrim",
+        "Description":  "Per-subsystem render hook trimming for FFXIV. Disables individual rendering subsystems (animations, models, vfx, water, lights, etc.) to reduce CPU on idle multibox clients beyond what a basic render-skip plugin achieves. Each trim is independently toggleable. Includes a Working Set memory trim that dramatically reduces RAM footprint of background/AFK clients, and a multibox broadcast feature that propagates configuration to peer clients with one click.",
+        "Punchline":  "Trim CPU, GPU, and RAM on idle multibox clients via per-subsystem render hooks.",
+        "AssemblyVersion":  "0.1.0.0",
+        "RepoUrl":  "https://github.com/thesupporthero/Rendertrim",
+        "ApplicableVersion":  "any",
+        "DalamudApiLevel":  15,
+        "LoadRequiredState":  0,
+        "LoadSync":  false,
+        "CanUnloadAsync":  false,
+        "LoadPriority":  0,
+        "Tags":  [
+                     "render",
+                     "performance",
+                     "multibox",
+                     "cpu",
+                     "gpu",
+                     "ram",
+                     "memory",
+                     "idle",
+                     "afk",
+                     "bard",
+                     "perform"
+                 ],
+        "CategoryTags":  [
+                             "utility",
+                             "other"
+                         ],
+        "AcceptsFeedback":  false,
+        "IsHide":  "False",
+        "IsTestingExclusive":  "False",
+        "LastUpdate":  "1777749536",
+        "DownloadCount":  0,
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/thesupporthero/Rendertrim/main/plugins/RenderTrim/latest.zip",
+        "DownloadLinkTesting":  "https://raw.githubusercontent.com/thesupporthero/Rendertrim/main/plugins/RenderTrim/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/thesupporthero/Rendertrim/main/plugins/RenderTrim/latest.zip"
+    }
+]
